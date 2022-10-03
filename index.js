@@ -1,11 +1,6 @@
-function currentYear() {
-    const date = new Date()
-    let year = date.getFullYear();
-
-    return year;
-}
-currentYear()
+const date = new Date()
+let year = date.getFullYear();
 
 
 
-document.getElementById()
+document.getElementById('curYr').innerHTML = year
