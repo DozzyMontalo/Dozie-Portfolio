@@ -82,17 +82,15 @@ a:hover {
     margin: auto;
 }
 
-.social-link {
-    position: relative;
-    margin: 0 4px;
-    font-weight: 700;
+.social-link a {
+    margin: 10px 10px;
 }
 
-
-/* .skills {
-    display: flex;
-    flex-direction: column;
-} */
+.fa {
+    /* margin: 3px 5px; */
+    position: relative;
+    margin: 0 2px;
+}
 
 .skills-photo {
     width: 25%;
@@ -108,7 +106,7 @@ a:hover {
 .top-cloud {
     position: absolute;
     right: 50px;
-    top: 40px;
+    top: 60px;
     display: inline-block;
     width: 100px;
 }
@@ -153,16 +151,6 @@ a:hover {
     color: white;
 }
 
-
-/* .rectangle {
-    width: 250px;
-    height: 150px;
-    border: 5px solid #11cdd4;
-    position: relative;
-    left: 70px;
-    flex: 1;
-} */
-
 .rectangle {
     width: 320px;
     height: 160px;
@@ -192,19 +180,17 @@ a:hover {
 }
 
 .resume {
-    flex: 1;
+    /* flex: 1; */
     margin-top: 20px;
 }
 
 .bottom-container {
-    /* background-color: #66BFBF; */
     background-color: #EAF6F6;
     padding: 50px 0 20px 0;
     width: 100%;
 }
 
 #desc {
-    /* color: #EAF6F6; */
     color: black;
     font-size: 0.75rem;
     padding: 20px 0;
@@ -215,10 +201,81 @@ a:hover {
     display: none;
 }
 
+.footer-link a:hover {
+    color: #838686
+}
 
-/* @media(max-width: 500px) {
-    .rectangle {
-        width: 300px;
-        height: 150px;
+@media only screen and (min-width: 768px) {
+    .huge {
+        font-size: 5.625rem;
     }
-} */
+    h2 {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .top-cloud {
+        width: 200px;
+    }
+    .bottom-cloud {
+        width: 200px;
+    }
+    .rectangle {
+        width: 600px;
+        height: 250px;
+        left: 0.4%;
+    }
+    .contact-me {
+        left: 1px;
+        top: 5%;
+    }
+    .contact-me h3 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    .bottom-container {
+        background-color: #66BFBF;
+    }
+    .footer-link {
+        position: relative;
+        display: inline-block;
+    }
+    .bottom-container a:hover {
+        color: #EAF6F6
+    }
+    #desc {
+        color: #EAF6F6;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .top-cloud {
+        right: 400px;
+        top: 40px;
+    }
+    .bottom-cloud {
+        left: 250px;
+        bottom: 300px;
+    }
+    .rectangle {
+        width: 700px;
+    }
+    .contact-me h3 {
+        font-size: 1.5rem;
+    }
+    .bottom-container {
+        background-color: #66BFBF;
+    }
+    .footer-link {
+        position: relative;
+        display: inline-block;
+    }
+    #desc {
+        color: #EAF6F6;
+    }
+    .bottom-container a:hover {
+        color: #EAF6F6
+    }
+}
