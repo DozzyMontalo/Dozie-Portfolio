@@ -83,13 +83,23 @@ a:hover {
 }
 
 .social-link a {
-    margin: 10px 10px;
+    margin: 10px 7px;
 }
 
 .fa {
-    /* margin: 3px 5px; */
     position: relative;
-    margin: 0 2px;
+}
+
+.fa-linkedin {
+    color: rgba(92, 124, 219, 0.935);
+}
+
+.fa-twitter {
+    color: deepskyblue;
+}
+
+.fa-instagram {
+    color: indianred;
 }
 
 .skills-photo {
